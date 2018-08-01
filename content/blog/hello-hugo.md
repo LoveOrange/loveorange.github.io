@@ -5,6 +5,9 @@ type: post
 categories: ["牢骚"]
 author: Linsama
 description: 牢骚太多，牢骚太少
+featured: "hello-hugo.jpg"
+featuredalt: "Hello Hugo"
+featuredpath: "date"
 ---
 这是用 hugo 发的第一篇文章。
 
