@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "http://linsama.com"
 languageCode = "en-us"
 title = "Linsama's Poem"
 theme = "imperfect"
@@ -91,7 +91,7 @@ canonifyURLs = true
 
   paragraph = "Linsama's personal blog"
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "Le vent se lève, il faut tenter de vivre"
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
