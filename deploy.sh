@@ -23,7 +23,7 @@ git push origin master
 # Come Back up to the Project Root
 cd ..
 
-echo "\n start to sync project \n"
+echo -e "\033[0;32mstart to sync to blog repo...\033[0m"
 git add .
 git commit -m "sync project `date`"
 git push origin master
