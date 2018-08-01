@@ -1,6 +1,10 @@
 ---
 title: "Hello Hugo"
 date: 2018-08-01T01:10:49+08:00
+type: post
+categories: ["牢骚"]
+author: Linsama
+description: 牢骚太多，牢骚太少
 ---
 这是用 hugo 发的第一篇文章。
 
