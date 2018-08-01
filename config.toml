@@ -41,7 +41,7 @@ canonifyURLs = true
   loadFavicon          = false
   faviconVersion       = ""
   # Sets Social Share links to appear on posts
-  socialShare          = true
+  socialShare          = false
   # Sets specific share to appear on posts (default behavior is to appear)
   socialShareTwitter   = true
   socialShareGoogleplus = true
@@ -106,7 +106,7 @@ canonifyURLs = true
 
 [params.postAmount]
 # Sets the number of recent posts to show in the sidebar. The default value is 5.
-    sidebar = 5
+    sidebar = 3
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
@@ -128,11 +128,11 @@ canonifyURLs = true
   identifier = "fa fa-newspaper-o"
   weight = 3
 
-[[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
+# [[menu.main]]
+#   name = "Itemized"
+#   url = "/itemized/"
+#   identifier = "fa fa-list"
+#   weight = 4
 
 [[menu.main]]
   name = "Categories"
