@@ -1,6 +1,6 @@
 ---
 title: "Hello Hugo"
-date: 2018-08-01T01:10:49+08:00
+date: 2018-08-01
 type: post
 categories: ["牢骚"]
 author: Linsama
