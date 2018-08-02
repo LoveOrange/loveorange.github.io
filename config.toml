@@ -1,4 +1,4 @@
-baseurl = "https://loveorange.github.io"
+baseurl = "http://loveorange.github.io"
 languageCode = "en-us"
 title = "Linsama's Poem"
 theme = "imperfect"
@@ -10,6 +10,10 @@ pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
 enableRobotsTXT = true
 canonifyURLs = true
+
+# and if you think your md file names or locations might change:
+[permalinks]
+    post = "/blog/:title/"
 
 [params]
   # Sets the meta tag description
