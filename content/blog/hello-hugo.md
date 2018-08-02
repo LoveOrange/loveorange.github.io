@@ -7,7 +7,7 @@ author: Linsama
 description: 牢骚太多，牢骚太少
 featured: "hello-hugo.jpg"
 featuredalt: "Hello Hugo"
-featuredpath: "date"
+featuredpath: "/2018/08"
 ---
 这是用 hugo 发的第一篇文章。
 
