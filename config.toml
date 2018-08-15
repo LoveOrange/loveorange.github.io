@@ -1,4 +1,4 @@
-baseurl = "http://loveorange.github.io"
+baseurl = "https://loveorange.github.io"
 languageCode = "en-us"
 title = "Linsama's Poem"
 theme = "imperfect"
