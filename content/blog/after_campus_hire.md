@@ -2,7 +2,7 @@
 title: "写在哈尔滨校招之后"
 date: 2018-08-03
 type: post
-categories: ["rushB"]
+categories: ["Thinking Beyond Coding"]
 author: Linsama
 description: 同样是面试，这次站在另一个角度看
 featured: ""
