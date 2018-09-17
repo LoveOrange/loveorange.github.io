@@ -1,6 +1,6 @@
 ---
 title: "写在哈尔滨校招之后"
-date: 2018-08-03
+date: 2018-09-17
 type: post
 categories: ["Thinking Beyond Coding"]
 author: Linsama
