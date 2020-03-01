@@ -1,7 +1,7 @@
 ---
 title: "Hello Hugo"
 date: 2018-08-01
-type: post
+# type: post
 categories: ["牢骚"]
 author: Linsama
 description: 牢骚太多，牢骚太少

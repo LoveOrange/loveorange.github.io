@@ -1,7 +1,7 @@
 ---
 title: "写在哈尔滨校招之后"
 date: 2018-09-17
-type: post
+# type: post
 categories: ["Thinking Beyond Coding"]
 author: Linsama
 description: 同样是面试，这次站在另一个角度看
@@ -9,6 +9,7 @@ featured: ""
 featuredalt: "after campus hire"
 featuredpath: "date"
 ---
+
 ## 一点小背景
 九月，又是一个校招季，我也有幸成为了某知名 O2O 互联网公司的校招面试官，在哈尔滨开始了为期三天的校招面试。
 
