@@ -1,0 +1,1 @@
+Write-Output "Deploy blog to GitHub Pages"
