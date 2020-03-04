@@ -1,38 +1,36 @@
 baseurl = "https://loveorange.github.io"
 languageCode = "en-us"
 title = "Lin's Poem"
-# theme = "noteworthy"
-# theme = "pure"
-theme = "m10c"
+theme = "anubis"
 preserveTaxonomyNames = true
 disqusShortname = "lin-poem"
 paginate = 5 # Set the number of posts to show before overflowing to the next page.
-summaryLength = 3 # Configure how long the post summary should be on the homepage.
+summaryLength = 5 # Configure how long the post summary should be on the homepage.
 
 
-# [[menu.main]]
-#   name = "Home"
-#   url = "/"
-#   identifier = "home"
-#   weight = 1
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  identifier = "home"
+  weight = 1
 
-# [[menu.main]]
-#   name = "Blog"
-#   url = "/posts/"
-#   identifier = "main"
-#   weight = 2
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  identifier = "main"
+  weight = 2
 
-# [[menu.main]]
-#   name = "Categories"
-#   url = "/categories/"
-#   identifier = "categories"
-#   weight = 3
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  identifier = "categories"
+  weight = 3
 
-# [[menu.main]]
-#   name = "Tags"
-#   url = "/tags/"
-#   identifier = "tags"
-#   weight = 4
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  identifier = "tags"
+  weight = 4
 
 # [[menu.main]]
 #   name = "About"
