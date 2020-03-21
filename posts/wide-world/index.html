@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>使用 V2Ray 进行科学上网  - Lin&#39;s Poem</title>
+<meta name="description" content="你好啊">
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="https://linsama.me/rss/">
+
+<link rel="icon" type="image/x-icon" href="https://linsama.me/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://linsama.me/favicon.png">
+
+<link rel="stylesheet" href="https://linsama.me/css/style.css?rnd=1584778990" />
+
+<meta property="og:title" content="使用 V2Ray 进行科学上网" />
+<meta property="og:description" content="前言
+科学上网简述
+随着个人电脑、智能手机的普及，互联网，已经成为我们日常生活中不可或缺的重要组成部分。有人戏称，断网是对一个人最大的惩罚。那么，对于我们每天使用的网络，它是“互联”的吗？
+很遗憾，并不是。
+古时候，长城（Great Wall）保护着中原大地不受外敌入侵；如今，防火长城（Great Firewall，以下简称GFW）组织者外部网络的“入侵”。虽然GFW阻止了我们访问一些不良网站， 但是同时，一些优秀的国外网站也被拒之门外，不得不说是一个遗憾。
+因此，我们需要解锁上网的新姿势，让我们访问被 GFW 屏蔽掉的优秀网站，去认识更广大的世界，这就是科学上网。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://linsama.me/posts/wide-world/" />
+<meta property="article:published_time" content="2020-03-04T11:34:52+08:00" />
+<meta property="article:modified_time" content="2020-03-04T11:34:52+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="使用 V2Ray 进行科学上网"/>
+<meta name="twitter:description" content="前言
+科学上网简述
+随着个人电脑、智能手机的普及，互联网，已经成为我们日常生活中不可或缺的重要组成部分。有人戏称，断网是对一个人最大的惩罚。那么，对于我们每天使用的网络，它是“互联”的吗？
+很遗憾，并不是。
+古时候，长城（Great Wall）保护着中原大地不受外敌入侵；如今，防火长城（Great Firewall，以下简称GFW）组织者外部网络的“入侵”。虽然GFW阻止了我们访问一些不良网站， 但是同时，一些优秀的国外网站也被拒之门外，不得不说是一个遗憾。
+因此，我们需要解锁上网的新姿势，让我们访问被 GFW 屏蔽掉的优秀网站，去认识更广大的世界，这就是科学上网。"/>
+
+
+
+
+
+
+    
+</head>
+<body>
+    <div class="container">
+        <header> 
+            
+                <h1 class="site-header">
+    <a href="https://linsama.me">Lin&#39;s Poem</a>
+</h1>
+<nav>
+    
+    
+    <a class="" href="/" title="">Home</a>
+    
+    <a class="" href="/posts/" title="">Blog</a>
+    
+    <a class="" href="/categories/" title="">Categories</a>
+    
+    <a class="" href="/tags/" title="">Tags</a>
+    
+</nav>
+
+            
+        </header>
+        <main>
+            
+
+    <article class="post">
+        <header>
+            <h1>使用 V2Ray 进行科学上网</h1>
+        </header>
+        <div class="content">
+            <h2 id="前言">前言</h2>
+<h3 id="科学上网简述">科学上网简述</h3>
+<p>随着个人电脑、智能手机的普及，互联网，已经成为我们日常生活中不可或缺的重要组成部分。有人戏称，断网是对一个人最大的惩罚。那么，对于我们每天使用的网络，它是“互联”的吗？</p>
+<p>很遗憾，并不是。</p>
+<p>古时候，长城（Great Wall）保护着中原大地不受外敌入侵；如今，防火长城（Great Firewall，以下简称GFW）组织者外部网络的“入侵”。虽然GFW阻止了我们访问一些不良网站， 但是同时，一些优秀的国外网站也被拒之门外，不得不说是一个遗憾。</p>
+<p>因此，我们需要解锁上网的新姿势，让我们访问被 GFW 屏蔽掉的优秀网站，去认识更广大的世界，这就是科学上网。</p>
+<h3 id="人人都需要科学上网吗">人人都需要科学上网吗？</h3>
+<p>诚然，很多优秀的网站被 GFW 所屏蔽，但是 GFW 内部仍然有许多优秀的网站、资源可供访问，这些网站足以满足普通用户的日常需求，并且大多数网站对于国内的用户都进行了优化，相比墙外的网站拥有更好的体验。因此对于大部分人来说，科学上网不是必备的技能。</p>
+<p>但是对于另一部分从事科研、文艺等内容的人来说，GFW 屏蔽掉了很多优秀资源网站，包括一些资料、文档等；同时，很多网站的服务器架设在国外，从国内访问并没有很好地速度。因此对于这部分人来说，科学上网堪称“刚需”。</p>
+<h2 id="准备工作">准备工作</h2>
+<h3 id="基本要求">基本要求</h3>
+<p>由于大部分的代理服务器运行的都是 Linux 环境，对于想要搭建代理服务器的用户有一定的 Linux 操作能力。</p>
+<h3 id="了解自己的需求">了解自己的需求</h3>
+<p>科学上网的第一步，就是要了解自己的需求。不妨思考以下几个问题：</p>
+<ul>
+<li>我是否需要科学上网？</li>
+<li>我经常浏览什么内容？</li>
+</ul>
+<p>这些问题会影响到挑选什么样的代理服务器。如果仅仅为了体验下国外的网站，那么代理服务器选一个便宜的即可；如果需要看一些 YouTube 视频，则要保证代理服务器有足够的带宽。</p>
+<h3 id="挑选代理服务器">挑选代理服务器</h3>
+<p>提供代理服务器的大小厂商有很多。</p>
+<p>如果是第一次搭建代理服务器的话，推荐使用 <a href="https://cloud.google.com/">Google Cloud Platform</a>（GCP）提供的虚拟机。GCP 的机房很多，而且速度有保障，可以说是目前速度最快的机器之一。但是缺点是价格较高，不过新用户注册会送 $300 和一年的体验。</p>
+<p>除了 GCP 之外，<a href="https://www.vultr.com/">Vultr</a>，<a href="https://www.digitalocean.com/">DigitalOcean</a>，<a href="https://bandwagonhost.com/">BandwagonHOST</a> 也是不错的选择，可以根据自身需求选择合适自己的套餐。</p>
+<h3 id="科学上网方案">科学上网方案</h3>
+<p>目前常用的科学上网工具有 <a href="https://github.com/shadowsocks/shadowsocks/tree/master">ShadowSockes</a> 和 <a href="https://www.v2ray.com/">V2Ray</a>，本文仅介绍 V2Ray 的配置方法，二者具体的差异可以自行调研，并选择合适的方案。</p>
+<h2 id="v2ray-配置">V2Ray 配置</h2>
+<h3 id="服务端配置">服务端配置</h3>
+<h4 id="安装">安装</h4>
+<p>V2Ray 的官网上提供了常见操作系统的<a href="https://www.v2ray.com/chapter_00/install.html">安装方式</a>，以 Linux 为例，使用以下命令可以直接安装：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">bash &lt;<span style="color:#f92672">(</span>curl -L -s https://install.direct/go.sh<span style="color:#f92672">)</span>
+</code></pre></div><h4 id="配置">配置</h4>
+<p>安装好了后，需要对 V2Ray 做一些基本的配置，V2Ray 默认的配置文件在 <code>/etc/v2ray/config.json</code>，以下为一份简要的配置，其中端口可以自行配置，id 可以在 <a href="http://www.uuid.online/">uuid.online</a> 上生成</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
+    <span style="color:#f92672">&#34;inbounds&#34;</span>: [{
+        <span style="color:#f92672">&#34;port&#34;</span>: <span style="color:#ae81ff">8088</span>,
+        <span style="color:#f92672">&#34;protocol&#34;</span>: <span style="color:#e6db74">&#34;vmess&#34;</span>,
+        <span style="color:#f92672">&#34;settings&#34;</span>: {
+            <span style="color:#f92672">&#34;clients&#34;</span>: [{
+                <span style="color:#f92672">&#34;id&#34;</span>: <span style="color:#e6db74">&#34;bf6b5b27-b45a-4c40-a8f1-e127c0690b64&#34;</span>,
+                <span style="color:#f92672">&#34;alterId&#34;</span>: <span style="color:#ae81ff">16</span>,
+                <span style="color:#f92672">&#34;security&#34;</span>: <span style="color:#e6db74">&#34;auto&#34;</span>,
+                <span style="color:#f92672">&#34;level&#34;</span>: <span style="color:#ae81ff">0</span>
+            }]
+        }
+    }],
+    <span style="color:#f92672">&#34;outbounds&#34;</span>: [{
+        <span style="color:#f92672">&#34;protocol&#34;</span>: <span style="color:#e6db74">&#34;freedom&#34;</span>,
+        <span style="color:#f92672">&#34;settings&#34;</span>: {}
+    }]
+}
+</code></pre></div><h4 id="启动">启动</h4>
+<p>配置好后，可以在后台运行 V2Ray，成功启动后，服务端配置完成。</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">nohup /usr/bin/v2ray/v2ray -config /etc/v2ray/config.json &gt; v2ray.log 2&gt;&amp;<span style="color:#ae81ff">1</span> &amp;
+</code></pre></div><h4 id="开启端口">开启端口</h4>
+<p>出于安全的考虑，部分服务器默认没有打开 8088 端口，需要手动打开：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">/sbin/iptables -I INPUT -p tcp --dport <span style="color:#ae81ff">8088</span> -j ACCEPT
+</code></pre></div><h2 id="加速">加速</h2>
+<p>虽然 V2Ray 的服务端已经配置完成，但是服务器默认的配置速度有限，此时可以使用 <a href="https://github.com/google/bbr">BBR</a> 等技术对代理服务器进行加速。有大神将常用的加速手段集成为一个一键<a href="https://github.com/google/bbr">脚本</a>，建议使用 BBR Plus 进行加速。</p>
+<p>使用加速后，YouTube 1080p 视频还是毫无压力的。
+<img src="/img/2020/wide_world/youtube_test.png" alt="YouTube Test"></p>
+<h2 id="客户端配置">客户端配置</h2>
+<p>配置完服务端后，客户端也需要进行相应的配置，才能够顺利地进行科学上网。</p>
+<p>V2Ray 有多种客户端可供选择，在 V2Ray 的官网中可以查看客户端列表，这里推荐使用 <a href="https://github.com/2dust/v2rayN/releases">V2RayN</a></p>
+<p>解压之后配置上自己的服务器并启动：
+<img src="/img/2020/wide_world/v2rayn.png" alt="V2RayN"></p>
+<p>参数设置中，可以修改端口号，建议为 1080，选择 HTTP 代理为 PAC 模式，就可以进行科学上网了：
+<img src="/img/2020/wide_world/v2rayn_port.png" alt="V2RayN Config"></p>
+<p>如果使用 Chrome 浏览器的话，可以搭配 SwitchyOmega 插件使用，在 proxy 模式中，代理协议设置为 SOCKS5，代理服务器设置为 127.0.0.1，代理端口设置为 V2RayN 中设置的本地监听端口：
+<img src="/img/2020/wide_world/switchyomega.png" alt="SwitchyOmega"></p>
+<p>欢迎来到更大的世界~</p>
+        </div>
+        <div class="article-info">
+    
+        <div class="article-date">2020-03-04</div>
+    
+    <div class="article-taxonomies">
+        
+            <ul class="article-categories">
+                
+                    <li><a href="https://linsama.me/categories/Thinking%20Beyond%20Coding">Thinking Beyond Coding</a></li>
+                
+            </ul>
+            
+            
+                <ul class="article-tags">
+                    
+                        <li><a href="https://linsama.me/tags/vps">#vps</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+    </article>
+    
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "lin-poem" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+
+
+        </main>
+        <footer>
+            
+                <p>© 2020<br>
+Powered by <a target="_blank" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+</p>
+            
+        </footer>
+    </div>
+</body>
+</html>

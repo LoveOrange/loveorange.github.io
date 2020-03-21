@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>牢骚 on Lin&#39;s Poem</title>
+    <link>https://linsama.me/categories/%E7%89%A2%E9%AA%9A/</link>
+    <description>Lin&#39;s Poem (牢骚)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+    <atom:link href="https://linsama.me/categories/%E7%89%A2%E9%AA%9A/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Hugo</title>
+      <link>https://linsama.me/posts/hello-hugo/</link>
+      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://linsama.me/posts/hello-hugo/</guid>
+      <description>&lt;p&gt;这是用 hugo 发的第一篇文章。&lt;/p&gt;
+&lt;p&gt;之前的 blog 使用的是 hexo，现在换了一个。&lt;/p&gt;
+&lt;p&gt;hexo 很棒，但是很多时候就是这样，不再使用一个东西，只是因为遇到了新的。&lt;/p&gt;
+&lt;p&gt;或许这就是喜新厌旧。&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
