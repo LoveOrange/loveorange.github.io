@@ -1,7 +1,0 @@
-[submodule "public"]
-	path = public
-	url = git@github.com:LoveOrange/LoveOrange.github.io.git
-	branch = master
-[submodule "harbor"]
-	path = themes/harbor
-	url = https://github.com/matsuyoshi30/harbor.git

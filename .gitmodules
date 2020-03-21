@@ -1,7 +1,4 @@
-[submodule "public"]
-	path = public
+[submodule "docs"]
+	path = docs
 	url = git@github.com:LoveOrange/LoveOrange.github.io.git
 	branch = master
-[submodule "anubis"]
-	path = themes/anubis
-	url = https://github.com/mitrichius/hugo-theme-anubis.git
